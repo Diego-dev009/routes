@@ -1,38 +1,26 @@
-.App {
+/* Styles for Category component */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
   text-align: center;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styles for Products component */
+.products-container {
+  padding: 20px;
+  background-color: #e0f7fa;
+  border-radius: 8px;
+  text-align: center;
+  color: #333;
+  color:brown;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* General styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
 }

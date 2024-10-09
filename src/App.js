@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Products from './Components/Products';
@@ -13,8 +12,7 @@ function App() {
       <Routes>
         <Route path='/products' element = {<Products/>}/>
         <Route path='/category' element = {<Category/>}/>
-
-      </Routes>
+    </Routes>
       
     </BrowserRouter>
   );
